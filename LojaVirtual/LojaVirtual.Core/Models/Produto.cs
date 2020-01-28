@@ -5,7 +5,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Threading.Tasks;
 
-namespace CasaDoCodigo.Models
+namespace LojaVirtual.Core.Models
 {
     [DataContract]
     public class BaseModel

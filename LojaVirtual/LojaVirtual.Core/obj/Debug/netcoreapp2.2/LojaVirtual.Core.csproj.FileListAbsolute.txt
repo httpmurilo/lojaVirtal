@@ -11,8 +11,6 @@ C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Cor
 C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\obj\Debug\netcoreapp2.2\LojaVirtual.Core.TagHelpers.input.cache
 C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\obj\Debug\netcoreapp2.2\LojaVirtual.Core.TagHelpers.output.cache
 C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\obj\Debug\netcoreapp2.2\LojaVirtual.Core.RazorCoreGenerate.cache
-C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
-C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
 C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\obj\Debug\netcoreapp2.2\Razor\Views\Pedido\Cadastro.g.cshtml.cs
 C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\obj\Debug\netcoreapp2.2\Razor\Views\Pedido\Carrinho.g.cshtml.cs
 C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\obj\Debug\netcoreapp2.2\Razor\Views\Pedido\Carrossel.g.cshtml.cs
