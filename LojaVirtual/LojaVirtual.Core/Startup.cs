@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using LojaVirtual.Core.Data;
 using LojaVirtual.Core.Interfaces;
+using LojaVirtual.Core.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -31,10 +32,11 @@ namespace LojaVirtual.Core
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-             services.AddDbContext<LojaContexto>(options => options.UseSqlServer("ConexaoSQL"));
+             services.AddDbContext<LojaContexto>(options => options.UseSqlServer(Configuration.GetConnectionString("ConexaoSQL")));
             services.AddMvc();
             services.AddTransient<IDataService, DataService>();
             //instancia temporaria para geracao do banco
+            services.AddTransient<IProdutoRepository, ProdutoRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, IServiceProvider provider)
@@ -59,7 +61,7 @@ namespace LojaVirtual.Core
                     name: "default",
                     template: "{controller=Pedido}/{action=Carrosel}/{id?}");
             });
-            provider.GetService<IDataService>().InicializeDb();
+            provider.GetService<DataService>().InicializeDb();
         }
     }
 }

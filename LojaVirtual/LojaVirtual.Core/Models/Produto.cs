@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Threading.Tasks;
@@ -26,6 +27,7 @@ namespace LojaVirtual.Core.Models
         [Required]
         public string Nome { get; private set; }
         [Required]
+        [Column(TypeName = "decimal(5, 2)")]
         public decimal Preco { get; private set; }
 
         public Produto(string codigo, string nome, decimal preco)
@@ -64,7 +66,7 @@ namespace LojaVirtual.Core.Models
     }
 
     public class ItemPedido : BaseModel
-    {   
+    {
         [Required]
         public Pedido Pedido { get; private set; }
         [Required]
@@ -72,6 +74,7 @@ namespace LojaVirtual.Core.Models
         [Required]
         public int Quantidade { get; private set; }
         [Required]
+        [Column(TypeName = "decimal(5, 2)")]
         public decimal PrecoUnitario { get; private set; }
 
         public ItemPedido()

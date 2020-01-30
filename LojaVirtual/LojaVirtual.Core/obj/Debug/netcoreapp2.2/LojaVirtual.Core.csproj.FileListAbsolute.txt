@@ -2,7 +2,6 @@ C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Cor
 C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\bin\Debug\netcoreapp2.2\LojaVirtual.Core.runtimeconfig.json
 C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\bin\Debug\netcoreapp2.2\LojaVirtual.Core.runtimeconfig.dev.json
 C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\bin\Debug\netcoreapp2.2\LojaVirtual.Core.dll
-C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\obj\Debug\netcoreapp2.2\LojaVirtual.Core.csprojAssemblyReference.cache
 C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\obj\Debug\netcoreapp2.2\LojaVirtual.Core.csproj.CoreCompileInputs.cache
 C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\obj\Debug\netcoreapp2.2\LojaVirtual.Core.RazorAssemblyInfo.cache
 C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\obj\Debug\netcoreapp2.2\LojaVirtual.Core.RazorAssemblyInfo.cs
@@ -30,3 +29,4 @@ C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Cor
 C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\bin\Debug\netcoreapp2.2\LojaVirtual.Core.Views.pdb
 C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\obj\Debug\netcoreapp2.2\LojaVirtual.Core.Views.pdb
 C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\obj\Debug\netcoreapp2.2\LojaVirtual.Core.csproj.CopyComplete
+C:\Users\murilo.melo\Desktop\Murilo\2020\LojaVirtual\LojaVirtual\LojaVirtual.Core\obj\Debug\netcoreapp2.2\LojaVirtual.Core.csprojAssemblyReference.cache
