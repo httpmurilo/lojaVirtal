@@ -5,9 +5,8 @@ using System.Threading.Tasks;
 
 namespace LojaVirtual.Core.Interfaces
 {
-        public  interface IDataService
+    internal interface IDataService
     {
-        void InicializeDb();
-
+        void InicializaDB();
     }
 }

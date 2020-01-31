@@ -16,7 +16,7 @@ namespace LojaVirtual.Core.Controllers
             this.produtoRepository = produtoRepository;
         }
 
-        public IActionResult Carrosel()
+        public IActionResult Carrossel()
         {
             return View(produtoRepository.GetProdutos());
         }
