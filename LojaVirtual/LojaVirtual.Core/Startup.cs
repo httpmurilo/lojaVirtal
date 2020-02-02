@@ -32,14 +32,12 @@ namespace LojaVirtual.Core
             services.AddMvc();
             services.AddDistributedMemoryCache();
             services.AddSession();
-
             services.AddTransient<IDataService, DataService>();
-            //instancia temporaria para geracao do banco
             services.AddTransient<IProdutoRepository, ProdutoRepository>();
             services.AddTransient<IPedidoRepository,PedidoRepository>();
             services.AddTransient<ICadastroRepository, CadastroRepository>();
             services.AddTransient<IItemPedidoRepository, ItemPedidoRepository>();
-            services.AddSingleton<JavaScriptSnippet>();
+            services.AddApplicationInsightsTelemetry();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, IServiceProvider provider)

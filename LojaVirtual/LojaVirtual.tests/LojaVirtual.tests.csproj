@@ -12,4 +12,10 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Autorizacao\" />
+    <Folder Include="Paginacao\" />
+    <Folder Include="Vendas\" />
+  </ItemGroup>
+
 </Project>
